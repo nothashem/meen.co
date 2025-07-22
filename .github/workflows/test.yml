@@ -1,0 +1,57 @@
+name: Test
+env:
+  AUTH_SECRET: mock
+  AUTH_LINKEDIN_ID: mock
+  AUTH_LINKEDIN_SECRET: mock
+  AUTH_DRIZZLE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+  DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+  OPENAI_API_KEY: mock
+  PROXYCURL_API_KEY: mock
+  AUTH_TRUST_HOST: true
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        node-version: [22]
+    services:
+      postgres:
+        image: pgvector/pgvector:0.8.0-pg17
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Lint the project
+        run: pnpm ci:lint
+
+      - name: Build the project
+        run: pnpm ci:build

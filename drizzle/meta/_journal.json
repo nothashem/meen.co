@@ -1,0 +1,118 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1744137154785,
+      "tag": "0000_new_psynapse",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1744218269914,
+      "tag": "0001_cynical_spectrum",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1744219143477,
+      "tag": "0002_unusual_living_lightning",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1744224784783,
+      "tag": "0003_classy_wild_child",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1744310318073,
+      "tag": "0004_greedy_kylun",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1744359433399,
+      "tag": "0005_curved_reptil",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1744359466720,
+      "tag": "0006_legal_green_goblin",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1744359856550,
+      "tag": "0007_serious_madrox",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1744362260635,
+      "tag": "0008_slippery_odin",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1744371124312,
+      "tag": "0009_gorgeous_blindfold",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1744379732120,
+      "tag": "0010_black_zombie",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1744379972683,
+      "tag": "0011_flaky_hardball",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1744464085014,
+      "tag": "0012_orange_lady_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1744491583534,
+      "tag": "0013_grey_sauron",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1744723731517,
+      "tag": "0014_sticky_anita_blake",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1744741730816,
+      "tag": "0015_unknown_chronomancer",
+      "breakpoints": true
+    }
+  ]
+}

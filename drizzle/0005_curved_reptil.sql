@@ -1,0 +1,1 @@
+ALTER TABLE "candidate" ADD CONSTRAINT "candidate_linkedInProfileId_linkedInProfile_id_fk" FOREIGN KEY ("linkedInProfileId") REFERENCES "public"."linkedInProfile"("id") ON DELETE cascade ON UPDATE no action;

@@ -1,0 +1,22 @@
+services:
+  db:
+    image: pgvector/pgvector:0.8.0-pg17
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: meen
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-db:/docker-entrypoint-initdb.d
+  crawler:
+    image: unclecode/crawl4ai:latest
+    restart: always
+    ports:
+      - 11235:11235
+    environment:
+      CRAWL4AI_API_TOKEN: secret
+volumes:
+  pgdata:

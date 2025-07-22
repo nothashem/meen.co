@@ -1,0 +1,10 @@
+node_modules
+.svelte-kit
+build
+package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-* 
+drizzle
+lib/components/ui

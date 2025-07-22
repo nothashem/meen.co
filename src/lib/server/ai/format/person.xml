@@ -1,0 +1,130 @@
+<linkedInProfile>
+    <name>Beatrice Lovely</name>
+    <headline>AI Engineer@GM, AI/ML solutions in manufacturing, ML Systems, Sensing and Small ML, MS Machine Learning '22 KTH/UIUC</headline>
+    <occupation>AI Software Engineer at General Motors</occupation>
+    <location>United States, United States of America</location>
+    <industry>Computer Software</industry>
+    <summary>ML Engineer by day creative by night. I want to drive end to end systems for worthwhile missions. I am an incurable creative, and intensely curious, constantly sprouting ideas and I enjoy discussing opportunities/problems worth solving with simple, elegant ML and software. I enjoy knowledge sharing, I am advocate for best practices and breaking down silos. Only looking to make my small corner of the world a better, kinder place.
+My evenings are spent taking photos, writing music or dancing. Formerly the sole owner of a small business and a multi-media producer, I have trained and led teams of entertainers and worked in production teams that sold million $$$ shows to top TV Networks and A-list talent. I left entertainment production because I missed tech and needed a new challenge.</summary>
+    <skills>
+        <skill>Apache Airflow</skill>
+        <skill>Artificial Intelligence (AI)</skill>
+        <skill>Research</skill>
+        <skill>Sensors</skill>
+        <skill>Sensory Integration</skill>
+        <skill>Television</skill>
+        <skill>Film Production</skill>
+        <skill>Producing</skill>
+        <skill>Media & Entertainment</skill>
+        <skill>Documentaries</skill>
+        <skill>Machine Learning</skill>
+        <skill>Data Science</skill>
+        <skill>Python (Programming Language)</skill>
+        <skill>PyTorch</skill>
+        <skill>Natural Language Processing (NLP)</skill>
+        <skill>Java</skill>
+        <skill>Data Analysis</skill>
+        <skill>Statistical Data Analysis</skill>
+        <skill>Deep Learning</skill>
+        <skill>Artificial Neural Networks</skill>
+    </skills>
+    <experiences>
+        <experience_entry>
+            <title>AI Software Engineer</title>
+            <company>General Motors</company>
+            <location>Austin, Texas, United States</location>
+            <description>Building end to end systems for AI/ML solutions to difficult problems in manufacturing. Saving our teams many hours and >$15 million annually</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Visiting Scholar</title>
+            <company>University of Illinois Urbana-Champaign</company>
+            <location>Urbana-Champaign Area</location>
+            <description>-MS Thesis advised by Professor Deepak Vasisht: Smart Scooter - solving e-scooter safety problems with multi-modal, privacy-preserving sensors and machine learning.
+-Using IMU and RF sensors and Machine Learning for real time safe operation of e-scooters
+-Applications of traditional computer vision technology on RF sensor data</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Applied Intelligence Mentorship Programme</title>
+            <company>Accenture</company>
+            <location>Stockholm, Stockholm County, Sweden</location>
+            <description>Mentorship program focused on exploring opportunities and building a career within Data and Machine Learning</description>
+        </experience_entry>
+        <experience_entry>
+            <title>NLP R&D Intern</title>
+            <company>DigitalTolk</company>
+            <location>Stockholm, Stockholm County, Sweden</location>
+            <description>Fine-tuned XLSR Large (multilingual) language model for language classification 
+from spoken audio which achieved 98% accuracy on a 3-way problem
+• Trained translation models for standard Arabic that achieved a BLEU score of 
+25 and created a roadmap for neural machine translation of dialectal Arabic</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Nordea Women's Finance Insight Programme</title>
+            <company>Nordea</company>
+            <location>Stockholm, Stockholm County, Sweden</location>
+            <description>Insight into the work of equities research and capital markets divisions within Nordea and networking with women in finance.</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Computer Vision Rule Developer/R&D & QA</title>
+            <company>Stellar</company>
+            <location>Stockholm, Stockholm County, Sweden</location>
+            <description>• Developed rule-based systems for pose tracking with smartphone cameras: 
+achieved average 30% improvement across 100+ existing exercises with all 
+new exercises entering the system at over 85% accuracy
+• Scored the quality of motion tracking APIs and selected one that improved 
+tracking and the user experience by 75%</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Owner, Performer</title>
+            <company>Twinkle Star Kids Parties</company>
+            <location>Boston, New York, United States</location>
+            <description>• Built a 5-star family, corporate and city event planning business in Greater 
+Boston, led teams of up to 4 performers at events for 5 people to 5000</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Producer</title>
+            <company>All-Star Media International</company>
+            <location>Boston, Massachusetts, United States</location>
+            <description>•      Secured co-production agreements with prominent production companies in Stockholm, London and New York and partnerships with a top 3 record label and top 5 talent agency worldwide
+•       Secured national broadcasting agreements in the US and international licensing interest for documentaries and reality shows
+•       Secured participation from music stars and conducted rare interviews with important musicians
+•       Produced documentaries and unscripted content with local talent in 3 cities
+•       Organized a $1 million plus fundraiser for the charitable arm of a top Boston hospital</description>
+        </experience_entry>
+        <experience_entry>
+            <title>Associate Producer</title>
+            <company>All-Star Media International</company>
+            <location>Boston, Massachusetts, United States</location>
+            <description>•      Liaison with Swedish companies and led pre-production and talent casting sessions in Sweden and London for a production company based in Boston.</description>
+        </experience_entry>
+    </experiences>
+    <education>
+        <education_entry>
+            <school>KTH Royal Institute of Technology</school>
+            <degree>Master of Science - MS</degree>
+            <field_of_study>Machine Learning</field_of_study>
+        </education_entry>
+        <education_entry>
+            <school>University of Illinois Urbana-Champaign</school>
+            <degree>Master of Science - MS</degree>
+            <field_of_study>Machine Learning</field_of_study>
+        </education_entry>
+        <education_entry>
+            <school>KTH Royal Institute of Technology</school>
+            <degree>Bachelor of Technology - BTech</degree>
+            <field_of_study>Media technology</field_of_study>
+        </education_entry>
+        <education_entry>
+            <school>Stockholm University</school>
+        </education_entry>
+        <education_entry>
+            <school>Kungsholmens Gymnasium</school>
+            <field_of_study>General education, Natural Sciences</field_of_study>
+        </education_entry>
+    </education>
+    <languages>
+        <language>English</language>
+        <language>French</language>
+        <language>Swedish</language>
+    </languages>
+</linkedInProfile>
